@@ -28,3 +28,13 @@
 /* simple button styles */
 .btn-primary { background: linear-gradient(90deg,#6d28d9,#ec4899); color: white; padding: .6rem 1rem; border-radius: .5rem; }
 .btn-ghost { border: 1px solid rgba(255,255,255,0.08); padding: .6rem 1rem; border-radius: .5rem; }
+
+/* cards */
+.card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.04); padding: 1rem; border-radius: .75rem; }
+
+/* skeleton */
+.skeleton { background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.04) 75%); background-size: 200% 100%; animation: shimmer 1.2s linear infinite; }
+@keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+
+/* responsive container */
+@media(min-width:768px) { .container { max-width: 1200px; } }
