@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1220;
+  --card: rgba(255,255,255,0.04);
+  --muted: #a1a1aa;
+}
+
+.light {
+  --bg: #f8fafc;
+  --card: rgba(255,255,255,0.6);
+  color: #0b1220;
+}
+
+.dark {
+  background: linear-gradient(180deg,#020617 0%, #071428 100%);
+  color: #e6eef8;
+}
+
+.animate-blob { animation: blob 8s infinite; }
+
+.container { max-width: 1100px; }
+
+.text-muted { color: var(--muted); }
+
+/* simple button styles */
+.btn-primary { background: linear-gradient(90deg,#6d28d9,#ec4899); color: white; padding: .6rem 1rem; border-radius: .5rem; }
+.btn-ghost { border: 1px solid rgba(255,255,255,0.08); padding: .6rem 1rem; border-radius: .5rem; }
